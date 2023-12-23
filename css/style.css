@@ -1,0 +1,154 @@
+html {
+ /*    padding: 200;
+    margin: 1,1,1,1;
+    font: 14px 'Open sans', sans-serif;
+    color: #333; */
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+	font-size: 24px;
+}
+form {
+    padding: 40px;
+    background: #DDD;
+    border: 4px solid #AAA;
+    width: 360px;
+    margin: 30px auto;
+}
+input {
+	font: 14px 'Open Sans', sans-serif;
+    border: 2px solid #ccc;
+    padding: 6px;
+    display: block;
+	margin-bottom: 10px;
+    width: 96%;
+}
+button {
+    font: 14px 'Open Sans', sans-serif;
+    background-color: #4285f4;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+	text-transform: uppercase;
+}
+p  {
+	 margin-top: 0;
+	 margin-left: 1rem;
+     margin-bottom: 1rem;
+	 line-height:1.5;
+}
+section  {
+	 margin-top: 0;
+	 margin-left: 1rem;
+     margin-bottom: 1rem;
+	 line-height:1.5;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+mark,
+.mark {
+  padding: 0.2em;
+  background-color: #fcf8e3;
+}
+/* Stile generale del form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Stile per le etichette dei campi del form */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Stile per gli input del form */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Stile per il pulsante di invio */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Stile per il pulsante di invio al passaggio del mouse */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Stile per i messaggi di errore o conferma */
+.message {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+/* Stile per i messaggi di errore */
+.error {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: 1px solid #e74c3c;
+}
+
+/* Stile per i messaggi di conferma/successo */
+.success {
+  background-color: #5cb85c;
+  color: #fff;
+  border: 1px solid #4cae4c;
+}
